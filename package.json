@@ -1,0 +1,21 @@
+{
+  "name": "mcp-bun",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "bun run index.ts",
+    "inspector": "bunx @modelcontextprotocol/inspector bun start",
+    "typecheck": "bun check"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^7"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "^2.4.0",
+    "zod": "^4.6.7"
+  }
+}
